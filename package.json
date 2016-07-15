@@ -1,0 +1,35 @@
+{
+  "name" : "mark-rpc",
+  "version" : "0.0.1",
+  "description" : "a set of benchmarking tests for node.js rpc frameworks",
+  "main" : "./index.js",
+  "keywords" : [
+    "rpc",
+    "test",
+    "benchmark"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/henryleu/mark-rpc.git"
+  },
+  "dependencies" : {
+    "dnode" : "~1.2.2",
+    "nodejs-light_rpc" : "~0.1.0"
+  },
+  "devDependencies" : {
+    "tape" : "~2.3.2"
+  },
+  "scripts" : {
+    "test" : "tape test/*.js test/server/*.js"
+  },
+  "browserify" : "browser.js",
+  "engine" : {
+    "node" : ">=0.6.0"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Henry Leu",
+    "email" : "honglileu@gmail.com",
+    "url" : "http://henryleu.com"
+  }
+}
