@@ -14,7 +14,9 @@
   },
   "dependencies" : {
     "dnode" : "~1.2.2",
-    "nodejs-light_rpc" : "~0.1.0"
+    "nodejs-light_rpc" : "~0.1.0",
+    "mongoose": "^4.4.8",
+    "redis": "2.6.1"
   },
   "devDependencies" : {
     "tape" : "~2.3.2"
